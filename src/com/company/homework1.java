@@ -9,7 +9,7 @@ public class homework1 {
         while(a-->0) {
             c=c+b;
             System.out.println(c);
-
+// made by abdallah saad
         }
     }
 
