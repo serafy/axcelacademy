@@ -1,4 +1,4 @@
-package com.company;
+package com.axcel.exercise;
 // Java program for implementation of QuickSort
 class QuickSort
 {

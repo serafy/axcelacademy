@@ -1,4 +1,4 @@
-package com.company;
+package com.axcel.exercise;
 
 public class Main {
 
