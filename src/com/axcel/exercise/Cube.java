@@ -10,7 +10,7 @@ public class Cube {
     }
 
     public void computeVolum(){
-        this.volum = side* side * side ;
+        this.volum = Math.pow(side,3);
 
     }
 

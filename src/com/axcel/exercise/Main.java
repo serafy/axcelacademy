@@ -13,8 +13,8 @@ public class Main {
         cube1.setSide(3);
         cube2.setSide(4);
 
-        cube2.setSide(1);
-        cube1.setSide(2);
+        cube2.setSide(1.5);
+        cube1.setSide(2.345);
 
 
     }
