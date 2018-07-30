@@ -1,10 +1,10 @@
 package com.axcel.exercise;
 
 public class Cube {
-    float side;
-    float volum;
+    private double side;
+    private double volum;
 
-    public void setSide(float side) {
+    public void setSide(double side) {
         this.side = side;
         computeVolum();
     }
@@ -14,26 +14,15 @@ public class Cube {
 
     }
 
-    public float getSide() {
+    public double getSide() {
         return side;
     }
 
-    public float getVolum() {
+    public double getVolum() {
         return volum;
     }
 
-    public static void main(String[] args) {
-        Cube cube1 = new Cube();
-        Cube cube2 = new Cube();
 
-        cube1.setSide(3);
-        cube2.setSide(4);
-
-        cube2.setSide(1);
-        cube1.setSide(2);
-
-
-    }
 
 
 }
