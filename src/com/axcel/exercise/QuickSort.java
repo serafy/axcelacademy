@@ -160,7 +160,7 @@ class QuickSort
     // Driver program
     public static void main(String args[])
     {
-        int inputArray[] = {10, 7, 8, 9, 1, 5};
+        int inputArray[] = {10, 3, 8,2, 9, 1, 5};
 
  
         QuickSort quickSort = new QuickSort();

@@ -1,28 +1,20 @@
 package com.axcel.exercise;
 
-public class Cube {
-    private double side;
-    private double volum;
+public class Cube extends Sh1 {
 
-    public void setSide(double side) {
-        this.side = side;
-        computeVolum();
+    public Cube(double side) {
+        super(side, side, side);
     }
 
-    public void computeVolum(){
-        this.volum = Math.pow(side,3);
+     void ComputeVolum(){
+        volum =  Math.pow(side,3);
 
     }
+    public void setLength(double length) {
 
-    public double getSide() {
-        return side;
     }
+    public void setHight(double hight) {
 
-    public double getVolum() {
-        return volum;
     }
-
-
-
 
 }
